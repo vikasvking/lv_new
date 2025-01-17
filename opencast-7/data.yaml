@@ -1,0 +1,13 @@
+train: /content/opencast-7/train/images
+val: /content/opencast-7/valid/images
+test: /content/opencast-7/test/images
+
+nc: 4
+names: ['buldozerpayloadergrader', 'dump_truck', 'excavator', 'light_vehicle']
+
+roboflow:
+  workspace: opencat
+  project: opencast
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/opencat/opencast/dataset/7
